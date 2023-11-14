@@ -128,10 +128,14 @@
 #### 깊이 우선 탐색 (Depth-Fist Search, DFS)
 
 - 핵심 아이디어: 현재 분기(Branch)를 끝까지 깊게 가본 다음에, 다음 분기로 이동
+
 - 장점: BFS에 비해 이해, 구현 쉬움
+
 - 단점: 그래프에 따라서 무슨 순서로 갈지 아무도 모른다(?)
   - 그래프 → 최단거리가 많이 나온다. 그러나 이걸로는 최단거리 못구함
+  
 - Keyword: 재귀 호출(Recursion), 스택
+
 - 방문확인을 위한 정점 배열이 필요하다는 것을 기억할 것.
 
 - 일반적으로 BFS에 비해 더 널리 쓰임
@@ -222,7 +226,12 @@
 - 연습문제
 
   - [[리트코드] 200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+  
   - [[백준] 1260. DFS와 BFS](https://www.acmicpc.net/problem/1260)
+  
+  - [][백준] [[백준] 2606. 바이러스](https://www.acmicpc.net/problem/2606)
+  
+    
 
 
 
